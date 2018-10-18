@@ -430,7 +430,7 @@ var virtualAssetList = App.virtualList('.assets_list', {
             ret +=      '<div class="item-inner">';
             ret +=          '<div class="item-title-row">';
             ret +=              '<div class="item-title">' + item.Name + '</div>';
-            ret +=                  '<div class="item-after"><i class="icon-other_lock state-0"></i><i class="icon-signal state-0"></i><i class="icon-satellite state-0"></i></div>';
+            ret +=                  '<div class="item-after"><i class="icon-signal state-0"></i><i class="icon-satellite state-0"></i></div>';
             ret +=          '</div>';
             ret +=          '<div class="item-subtitle state-0"><i class="icon-status"></i>'+LANGUAGE.COM_MSG11+'</div>';
             ret +=      '</div>';                   
