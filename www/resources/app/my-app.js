@@ -1937,6 +1937,7 @@ function logout(){
 
 function preLogin(){
     getPlusInfo();
+    hideKeyboard();
     App.showPreloader();
     if  (localStorage.PUSH_DEVICE_TOKEN){                
         login();
@@ -1946,7 +1947,7 @@ function preLogin(){
 }
 
 function reGetPushDetails(){
-    hideKeyboard();
+    
     getPlusInfo();
     if  (pushConfigRetry <= pushConfigRetryMax){
         pushConfigRetry++;
